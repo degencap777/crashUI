@@ -1,0 +1,19 @@
+.input-rtl {
+    direction: rtl;
+    padding-right: 5px;
+}
+.input-rtl:focus{
+    text-align: left;
+    direction: ltr;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
